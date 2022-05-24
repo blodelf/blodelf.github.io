@@ -46,3 +46,14 @@ sup{
 .dat{
     margin-top: 150px;
 }
+.main-content div{
+    width: 100%;
+}
+.univ{
+    width: 75%!important;
+}
+
+.userDisplay div div{
+    border: 2px solid azure;
+}
+

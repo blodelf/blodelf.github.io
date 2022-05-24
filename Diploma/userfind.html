@@ -25,77 +25,51 @@
             <a href="#" class="btn btn-primary nav-item mb-4"> Вийти </a>
         </nav>
     </div>
-    <div class="main-content d-flex flex-column pt-5">
-        <div class="form-add-part1 h-75">
-            <div class="form-add w-75 input-container">
-                <input type="text" required="">
-                <label>Логін користувача<sup>*</sup></label>
-            </div>
-            <div class="form-add w-75 input-container">
-                <input type="text" required="">
-                <label>Номер посвідчення<sup>*</sup></label>
-            </div>
-            <div class="form-add w-75 input-container">
-                <input type="text" required="">
-                <label>Пароль користувача<sup>*</sup></label>
-            </div>
-            <div class="form-add w-75 input-container">
-                <input type="text" required="">
-                <label>Підтвердження паролю<sup>*</sup></label>
-            </div>
-            <div class="form-add w-75 input-container">
-                <input type="text" required="">
-                <label>Контрольне питання</label>
-            </div>
-            <div class="form-add w-75 input-container">
-                <input type="text" required="">
-                <label>Контрольна відповідь</label>
-            </div>
-
-            <div class="form-add w-75 input-container">
-                <input type="text" required="">
-                <label>Прізвище<sup>*</sup></label>
-            </div>
-            <div class="form-add w-75 input-container">
-                <input type="text" required="">
-                <label>Ім'я<sup>*</sup></label>
-            </div>
-            <div class="form-add w-75 input-container">
-                <input type="text" required="">
-                <label>Побатькові<sup>*</sup></label>
-            </div>
+    <div class="main-content d-flex flex-column">
+        <div class="d-flex justify-content-center pt-5">
+            <span class="mb-5 alert alert-secondary h2" >Будь ласка, заповніть хоча б одне з полів</span>
         </div>
-        <div class="form-add-part2 h-75">
+        <div class="h-75">
+            <div class="form-add w-75 input-container">
+                <input type="text" required="">
+                <label>Логін користувача</label>
+            </div>
+            <div class="form-add w-75 input-container">
+                <input type="text" required="">
+                <label>Номер посвідчення</label>
+            </div>
+            <div class="form-add w-75 input-container">
+                <input type="text" required="">
+                <label>Прізвище</label>
+            </div>
+            <div class="form-add w-75 input-container">
+                <input type="text" required="">
+                <label>Ім'я</label>
+            </div>
+            <div class="form-add w-75 input-container">
+                <input type="text" required="">
+                <label>Побатькові</label>
+            </div>
             <div class="d-flex">
                 <div class="form-add w-75 mb-4">
-                    <label class="univ">Факультет<sup>*</sup><br>
-                    <select>
-                        <option>Студент</option>
-                        <option>Адміністратор</option>
-                        <option>Аспірант</option>
-                        <option>Співробіник</option>
-                        <option>Курсант</option>
-                        <option>Студент-ІПО</option>
-                        <option>Ліцеїст</option>
-                    </select></label>
+                    <label class="univ">Стан<br>
+                        <select>
+                            <option>OPEN</option>
+                            <option>CLOSE</option>
+                        </select></label>
                 </div>
                 <div class="form-add w-75 mb-4">
-                    <label>Посада<br>
-                    <select>
-                        <option>Студент</option>
-                        <option>Адміністратор</option>
-                        <option>Аспірант</option>
-                        <option>Співробіник</option>
-                        <option>Курсант</option>
-                        <option>Студент-ІПО</option>
-                        <option>Ліцеїст</option>
-                    </select></label>
-
+                        <label class="univ">Факультет<br>
+                            <select>
+                                <option>Студент</option>
+                                <option>Адміністратор</option>
+                                <option>Аспірант</option>
+                                <option>Співробіник</option>
+                                <option>Курсант</option>
+                                <option>Студент-ІПО</option>
+                                <option>Ліцеїст</option>
+                            </select></label>
                 </div>
-            </div>
-            <div class="form-add w-75 input-container">
-                <input type="text" required="">
-                <label>Опис посади</label>
             </div>
             <div class="form-add w-75 input-container">
                 <input type="text" required="">
@@ -103,21 +77,17 @@
             </div>
             <div class="form-add w-75 input-container">
                 <input type="text" required="">
-                <label>Контактний телефон</label>
+                <label>Створювач</label>
             </div>
             <div class="form-add w-75 input-container">
                 <input type="text" required="">
-                <label>Вітальне повідомлення</label>
-            </div>
-            <div class="form-add w-75 input-container dat">
-                <input type="text" class="form-control" id="datepicker-example">
-                <label>Аккаунт дійсний до</label>
+                <label>Кількість попереджень</label>
             </div>
         </div>
+
+
         <div class="d-flex justify-content-center">
-            <button class="prev btn btn-dark mr-5">Prev</button>
-            <button class="btn btn-success mr-5">Додати</button>
-            <button class="next btn btn-dark">Next</button>
+            <button class="btn btn-success mr-5">Пошук</button>
         </div>
     </div>
 </main>
