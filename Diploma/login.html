@@ -8,21 +8,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/shards-ui@latest/dist/css/shards.min.css">
     <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="stylesheet" href="css/input.css">
 </head>
 <body>
-<main class="d-flex h-100">
-    <div class="h-100 menu ">
-        <nav class="nav flex-column align-items-center justify-content-center">
-            <a href="registration.html" class="btn btn-primary nav-item mb-4"> Реестрація нового користувача  </a>
-            <a href="userfind.html" class="btn btn-primary nav-item mb-4"> Пошук користувача по базі </a>
-            <a href="termlonger.html" class="btn btn-primary nav-item mb-4"> Продовження строку дії аккаунта </a>
-            <a href="changepass.html" class="btn btn-primary nav-item mb-4"> Змінити пароль користувача </a>
-            <a href="history.html" class="btn btn-primary nav-item mb-4"> Історія користувача </a>
-            <a href="login.html" class="btn btn-primary nav-item mb-4"> Вийти </a>
-        </nav>
-    </div>
-    <div class="main-content d-flex flex-column">
-
+<main class="d-flex justify-content-center align-content-center register">
+    <div class="d-flex flex-column justify-content-center align-content-center">
+        <div class="form-add input-container">
+            <input type="text" required="">
+            <label>Логін</label>
+        </div>
+        <div class="form-add input-container">
+            <input type="password" required="">
+            <label>Пароль</label>
+        </div>
+        <div class="d-flex justify-content-center">
+            <form action="index.html">
+                <button type="submit" class="btn btn-success">Увійти</button>
+            </form>
+        </div>
     </div>
 </main>
 
@@ -32,5 +35,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/shards-ui@latest/dist/js/shards.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
